@@ -1,0 +1,6 @@
+Flask
+Flask-SQLAlchemy
+flask_jwt_extended
+werkzeug
+PyMySQL
+python-dotenv
