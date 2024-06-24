@@ -1,0 +1,162 @@
+2024-06-24 11:25:20,671 - API_Logger - INFO - Path: /api/login
+2024-06-24 11:25:20,673 - API_Logger - INFO - Method: POST
+2024-06-24 11:25:20,675 - API_Logger - INFO - Request Data: b'{\r\n    "email": "vistapac@gmail.com",\r\n    "password": "111111"\r\n}'
+2024-06-24 11:25:20,675 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 11:25:20,676 - API_Logger - INFO - No JWT found in request: Missing Authorization Header
+2024-06-24 11:25:20,885 - API_Logger - INFO - Response Status: 200 OK
+2024-06-24 11:25:20,886 - API_Logger - INFO - Response Data: b'{\n  "data": {\n    "email": "vistapac@gmail.com",\n    "id": 1,\n    "role": "user",\n    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxOTE5OTUyMCwianRpIjoiMGZjNmU0MDMtYzQ4Yi00NDhlLWE5NzktZGEwNmQ2MTIwM2ZmIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNzE5MTk5NTIwLCJjc3JmIjoiNmU5NGU4NzgtMDBhYy00MjFhLWEwN2YtNzFiYTJhMTFhYzlmIiwiZXhwIjoxNzE5MjAwNDIwfQ.vEFzhuiQD81KVYNtpjP1fsfMjymW-kiNRUwjPnePEX0",\n    "username": "\\u5e73\\u5e73"\n  },\n  "message": "Login successful"\n}\n'
+2024-06-24 13:28:32,786 - API_Logger - INFO - Path: /api/register
+2024-06-24 13:28:32,787 - API_Logger - INFO - Method: POST
+2024-06-24 13:28:32,789 - API_Logger - INFO - Request Data: b'{\r\n    "email": "user@gmail.com",\r\n    "password": "111111",\r\n    "username": "\xe5\xb9\xb3\xe5\xb9\xb3"\r\n}'
+2024-06-24 13:28:32,790 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 13:28:32,791 - API_Logger - INFO - No JWT found in request: Missing Authorization Header
+2024-06-24 13:28:33,026 - API_Logger - INFO - Response Status: 201 CREATED
+2024-06-24 13:28:33,026 - API_Logger - INFO - Response Data: b'{\n  "data": {\n    "email": "user@gmail.com",\n    "id": 1,\n    "role": "user",\n    "username": "\\u5e73\\u5e73"\n  },\n  "message": "User registered successfully"\n}\n'
+2024-06-24 13:38:08,238 - API_Logger - INFO - Path: /api/register
+2024-06-24 13:38:08,241 - API_Logger - INFO - Method: POST
+2024-06-24 13:38:08,242 - API_Logger - INFO - Request Data: b'{\r\n    "email": "f.vteivuwshq@qq.com",\r\n    "password": "123",\r\n    "username": "\xe5\x8d\xa2\xe6\x95\x8f"\r\n}'
+2024-06-24 13:38:08,243 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 13:38:08,243 - API_Logger - INFO - No JWT found in request: Missing Authorization Header
+2024-06-24 13:38:08,445 - API_Logger - INFO - Response Status: 201 CREATED
+2024-06-24 13:38:08,446 - API_Logger - INFO - Response Data: b'{\n  "data": {\n    "email": "f.vteivuwshq@qq.com",\n    "id": 2,\n    "role": "user",\n    "username": "\\u5362\\u654f"\n  },\n  "message": "User registered successfully"\n}\n'
+2024-06-24 13:38:59,152 - API_Logger - INFO - Path: /api/login
+2024-06-24 13:38:59,153 - API_Logger - INFO - Method: POST
+2024-06-24 13:38:59,154 - API_Logger - INFO - Request Data: b'{\r\n    "email": "admin@gmail.com",\r\n    "password": "111111"\r\n}'
+2024-06-24 13:38:59,155 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 13:38:59,156 - API_Logger - INFO - No JWT found in request: Missing Authorization Header
+2024-06-24 13:38:59,360 - API_Logger - INFO - Response Status: 200 OK
+2024-06-24 13:38:59,361 - API_Logger - INFO - Response Data: b'{\n  "data": {\n    "email": "admin@gmail.com",\n    "id": 1,\n    "role": "admin",\n    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxOTIwNzUzOSwianRpIjoiOGFmNzk3NjktZGIxZi00YzA3LWJlODItZWQ3NTdlMzM2Nzg3IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNzE5MjA3NTM5LCJjc3JmIjoiZTAxOTI5ZWItZTAzNS00ZmFiLTlhYjUtNGRiN2RjMTllYjlmIiwiZXhwIjoxNzE5MjA4NDM5fQ.KPXzhkMM7p-mrDxABlQP_80uY8cTbG_k3ePYQa5IWtE",\n    "username": "\\u5e73\\u5e73"\n  },\n  "message": "Login successful"\n}\n'
+2024-06-24 13:39:13,355 - API_Logger - INFO - Path: /api/user
+2024-06-24 13:39:13,356 - API_Logger - INFO - Method: GET
+2024-06-24 13:39:13,356 - API_Logger - INFO - Request Data: b''
+2024-06-24 13:39:13,357 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 13:39:13,357 - API_Logger - INFO - JWT Info: {'fresh': False, 'iat': 1719207539, 'jti': '8af79769-db1f-4c07-be82-ed757e336787', 'type': 'access', 'sub': 1, 'nbf': 1719207539, 'csrf': 'e01929eb-e035-4fab-9ab5-4db7dc19eb9f', 'exp': 1719208439}
+2024-06-24 13:39:13,361 - API_Logger - INFO - Response Status: 200 OK
+2024-06-24 13:39:13,361 - API_Logger - INFO - Response Data: b'{\n  "email": "admin@gmail.com",\n  "id": 1,\n  "role": "admin",\n  "username": "\\u5e73\\u5e73"\n}\n'
+2024-06-24 13:39:34,851 - API_Logger - INFO - Path: /api/users/2/role
+2024-06-24 13:39:34,852 - API_Logger - INFO - Method: PUT
+2024-06-24 13:39:34,852 - API_Logger - INFO - Request Data: b'{\r\n    "role": "admin"\r\n}'
+2024-06-24 13:39:34,852 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 13:39:34,853 - API_Logger - INFO - No JWT found in request: Bad Authorization header. Expected 'Authorization: Bearer <JWT>'
+2024-06-24 13:39:34,853 - API_Logger - INFO - Response Status: 422 UNPROCESSABLE ENTITY
+2024-06-24 13:39:34,853 - API_Logger - INFO - Response Data: b'{\n  "msg": "Bad Authorization header. Expected \'Authorization: Bearer <JWT>\'"\n}\n'
+2024-06-24 13:39:50,756 - API_Logger - INFO - Path: /api/users/2/role
+2024-06-24 13:39:50,756 - API_Logger - INFO - Method: PUT
+2024-06-24 13:39:50,756 - API_Logger - INFO - Request Data: b'{\r\n    "role": "admin"\r\n}'
+2024-06-24 13:39:50,756 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 13:39:50,756 - API_Logger - INFO - JWT Info: {'fresh': False, 'iat': 1719207539, 'jti': '8af79769-db1f-4c07-be82-ed757e336787', 'type': 'access', 'sub': 1, 'nbf': 1719207539, 'csrf': 'e01929eb-e035-4fab-9ab5-4db7dc19eb9f', 'exp': 1719208439}
+2024-06-24 13:39:50,762 - API_Logger - INFO - Response Status: 200 OK
+2024-06-24 13:39:50,763 - API_Logger - INFO - Response Data: b'{\n  "message": "User\'s role updated to admin successfully."\n}\n'
+2024-06-24 15:18:48,857 - API_Logger - INFO - Path: /api/register
+2024-06-24 15:18:48,859 - API_Logger - INFO - Method: OPTIONS
+2024-06-24 15:18:48,863 - API_Logger - INFO - Request Data: b''
+2024-06-24 15:18:48,863 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 15:18:48,864 - API_Logger - INFO - No JWT found in request: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2024-06-24 15:18:48,867 - API_Logger - INFO - Response Status: 200 OK
+2024-06-24 15:18:48,868 - API_Logger - INFO - Response Data: b''
+2024-06-24 15:19:34,414 - API_Logger - INFO - Path: /api/register
+2024-06-24 15:19:34,415 - API_Logger - INFO - Method: OPTIONS
+2024-06-24 15:19:34,415 - API_Logger - INFO - Request Data: b''
+2024-06-24 15:19:34,416 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 15:19:34,416 - API_Logger - INFO - No JWT found in request: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2024-06-24 15:19:34,417 - API_Logger - INFO - Response Status: 200 OK
+2024-06-24 15:19:34,417 - API_Logger - INFO - Response Data: b''
+2024-06-24 15:27:51,436 - API_Logger - INFO - Path: /api/register
+2024-06-24 15:27:51,438 - API_Logger - INFO - Method: POST
+2024-06-24 15:27:51,439 - API_Logger - INFO - Request Data: b'{\r\n  "email": "test@test.test",\r\n  "password": "string",\r\n  "username": "string",\r\n  "role": "admin"\r\n}'
+2024-06-24 15:27:51,440 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 15:27:51,443 - API_Logger - INFO - No JWT found in request: Missing Authorization Header
+2024-06-24 15:29:23,048 - API_Logger - INFO - Path: /api/register
+2024-06-24 15:29:23,048 - API_Logger - INFO - Method: POST
+2024-06-24 15:29:23,049 - API_Logger - INFO - Request Data: b'{\r\n  "email": "test@test.test",\r\n  "password": "string",\r\n  "username": "string",\r\n  "role": "admin"\r\n}'
+2024-06-24 15:29:23,050 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 15:29:23,050 - API_Logger - INFO - No JWT found in request: Missing Authorization Header
+2024-06-24 15:44:46,948 - API_Logger - INFO - Path: /api/register
+2024-06-24 15:44:46,949 - API_Logger - INFO - Method: POST
+2024-06-24 15:44:46,949 - API_Logger - INFO - Request Data: b'{\r\n    "email": "h.pshyuh@qq.com",\r\n    "password": "111",\r\n    "role": "admin",\r\n    "username": "\xe5\x8f\xb2\xe6\x98\x8e"\r\n}'
+2024-06-24 15:44:46,949 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 15:44:46,949 - API_Logger - INFO - No JWT found in request: Missing Authorization Header
+2024-06-24 15:46:09,974 - API_Logger - INFO - Path: /api/register
+2024-06-24 15:46:09,975 - API_Logger - INFO - Method: POST
+2024-06-24 15:46:09,975 - API_Logger - INFO - Request Data: b'{\r\n    "email": "h.pshyuh@qq.com",\r\n    "password": "111",\r\n    "role": "admin",\r\n    "username": "\xe5\x8f\xb2\xe6\x98\x8e"\r\n}'
+2024-06-24 15:46:09,975 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 15:46:09,976 - API_Logger - INFO - No JWT found in request: Missing Authorization Header
+2024-06-24 15:46:10,180 - API_Logger - INFO - Response Status: 201 CREATED
+2024-06-24 15:46:10,180 - API_Logger - INFO - Response Data: b'{\n  "data": {\n    "email": "h.pshyuh@qq.com",\n    "id": 1,\n    "role": "admin",\n    "username": "\\u53f2\\u660e"\n  },\n  "message": "User registered successfully"\n}\n'
+2024-06-24 15:52:05,230 - API_Logger - INFO - Path: /api/register
+2024-06-24 15:52:05,231 - API_Logger - INFO - Method: POST
+2024-06-24 15:52:05,231 - API_Logger - INFO - Request Data: b'{\r\n    "email": "w.fdicrwgkbf@qq.com",\r\n    "password": "11111",\r\n    "role": "user",\r\n    "username": "\xe6\xb1\xa4\xe5\xa8\x9c"\r\n}'
+2024-06-24 15:52:05,231 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 15:52:05,232 - API_Logger - INFO - No JWT found in request: Missing Authorization Header
+2024-06-24 15:52:05,431 - API_Logger - INFO - Response Status: 201 CREATED
+2024-06-24 15:52:05,432 - API_Logger - INFO - Response Data: b'{\n  "data": {\n    "email": "w.fdicrwgkbf@qq.com",\n    "id": 2,\n    "role": "user",\n    "username": "\\u6c64\\u5a1c"\n  },\n  "message": "User registered successfully"\n}\n'
+2024-06-24 15:53:27,215 - API_Logger - INFO - Path: /api/login
+2024-06-24 15:53:27,215 - API_Logger - INFO - Method: POST
+2024-06-24 15:53:27,215 - API_Logger - INFO - Request Data: b'{\r\n    "email": "h.pshyuh@qq.com",\r\n    "password": "111"\r\n}'
+2024-06-24 15:53:27,216 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 15:53:27,216 - API_Logger - INFO - No JWT found in request: Missing Authorization Header
+2024-06-24 15:53:27,385 - API_Logger - INFO - Response Status: 200 OK
+2024-06-24 15:53:27,386 - API_Logger - INFO - Response Data: b'{\n  "data": {\n    "email": "h.pshyuh@qq.com",\n    "id": 1,\n    "role": "admin",\n    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxOTIxNTYwNywianRpIjoiM2ViNDRkNTUtYTZmOC00NTA4LWIwZDItMWY0NWI4ZTgyYzAwIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MSwibmJmIjoxNzE5MjE1NjA3LCJjc3JmIjoiYzUzYTg3NjUtNzNlNi00NTBhLWE0OTItYTg5ZGQzZTU5Y2ZmIiwiZXhwIjoxNzE5MjE2NTA3fQ.Lk9PMTCHYKmF9I7_2dcOA-SWX6YL_RwokXR6VlcsPXg",\n    "username": "\\u53f2\\u660e"\n  },\n  "message": "Login successful"\n}\n'
+2024-06-24 15:53:45,204 - API_Logger - INFO - Path: /api/user
+2024-06-24 15:53:45,205 - API_Logger - INFO - Method: GET
+2024-06-24 15:53:45,205 - API_Logger - INFO - Request Data: b''
+2024-06-24 15:53:45,205 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 15:53:45,206 - API_Logger - INFO - JWT Info: {'fresh': False, 'iat': 1719215607, 'jti': '3eb44d55-a6f8-4508-b0d2-1f45b8e82c00', 'type': 'access', 'sub': 1, 'nbf': 1719215607, 'csrf': 'c53a8765-73e6-450a-a492-a89dd3e59cff', 'exp': 1719216507}
+2024-06-24 15:53:45,208 - API_Logger - INFO - Response Status: 200 OK
+2024-06-24 15:53:45,209 - API_Logger - INFO - Response Data: b'{\n  "email": "h.pshyuh@qq.com",\n  "id": 1,\n  "role": "admin",\n  "username": "\\u53f2\\u660e"\n}\n'
+2024-06-24 15:53:55,585 - API_Logger - INFO - Path: /api/users/2/role
+2024-06-24 15:53:55,585 - API_Logger - INFO - Method: PUT
+2024-06-24 15:53:55,585 - API_Logger - INFO - Request Data: b'{\r\n    "role": "admin"\r\n}'
+2024-06-24 15:53:55,585 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 15:53:55,586 - API_Logger - INFO - No JWT found in request: Signature has expired
+2024-06-24 15:53:55,587 - API_Logger - INFO - Response Status: 401 UNAUTHORIZED
+2024-06-24 15:53:55,587 - API_Logger - INFO - Response Data: b'{\n  "msg": "Token has expired"\n}\n'
+2024-06-24 15:54:05,203 - API_Logger - INFO - Path: /api/users/2/role
+2024-06-24 15:54:05,203 - API_Logger - INFO - Method: PUT
+2024-06-24 15:54:05,203 - API_Logger - INFO - Request Data: b'{\r\n    "role": "admin"\r\n}'
+2024-06-24 15:54:05,203 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 15:54:05,204 - API_Logger - INFO - JWT Info: {'fresh': False, 'iat': 1719215607, 'jti': '3eb44d55-a6f8-4508-b0d2-1f45b8e82c00', 'type': 'access', 'sub': 1, 'nbf': 1719215607, 'csrf': 'c53a8765-73e6-450a-a492-a89dd3e59cff', 'exp': 1719216507}
+2024-06-24 15:54:05,209 - API_Logger - INFO - Response Status: 200 OK
+2024-06-24 15:54:05,209 - API_Logger - INFO - Response Data: b'{\n  "message": "User\'s role updated to admin successfully."\n}\n'
+2024-06-24 15:56:23,346 - API_Logger - INFO - Path: /api/register
+2024-06-24 15:56:23,347 - API_Logger - INFO - Method: OPTIONS
+2024-06-24 15:56:23,347 - API_Logger - INFO - Request Data: b''
+2024-06-24 15:56:23,347 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 15:56:23,348 - API_Logger - INFO - No JWT found in request: You must call `@jwt_required()` or `verify_jwt_in_request()` before using this method
+2024-06-24 15:56:23,348 - API_Logger - INFO - Response Status: 200 OK
+2024-06-24 15:56:23,348 - API_Logger - INFO - Response Data: b''
+2024-06-24 15:56:31,359 - API_Logger - INFO - Path: /api/register
+2024-06-24 15:56:31,362 - API_Logger - INFO - Method: POST
+2024-06-24 15:56:31,364 - API_Logger - INFO - Request Data: b'{\r\n  "email": "test@test.test",\r\n  "password": "string",\r\n  "username": "string",\r\n  "role": "admin"\r\n}'
+2024-06-24 15:56:31,366 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 15:56:31,367 - API_Logger - INFO - No JWT found in request: Missing Authorization Header
+2024-06-24 15:56:31,559 - API_Logger - INFO - Response Status: 201 CREATED
+2024-06-24 15:56:31,560 - API_Logger - INFO - Response Data: b'{\n  "data": {\n    "email": "test@test.test",\n    "id": 3,\n    "role": "admin",\n    "username": "string"\n  },\n  "message": "User registered successfully"\n}\n'
+2024-06-24 15:58:55,481 - API_Logger - INFO - Path: /api/login
+2024-06-24 15:58:55,482 - API_Logger - INFO - Method: POST
+2024-06-24 15:58:55,483 - API_Logger - INFO - Request Data: b'{\r\n  "email": "test@test.test",\r\n  "password": "string"\r\n}'
+2024-06-24 15:58:55,484 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 15:58:55,485 - API_Logger - INFO - No JWT found in request: Missing Authorization Header
+2024-06-24 15:58:55,681 - API_Logger - INFO - Response Status: 200 OK
+2024-06-24 15:58:55,681 - API_Logger - INFO - Response Data: b'{\n  "data": {\n    "email": "test@test.test",\n    "id": 3,\n    "role": "admin",\n    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTcxOTIxNTkzNSwianRpIjoiYmVlYTdkZDEtMTMyYi00MDUzLWFlMDgtN2RmNjI1ZjIzM2U2IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MywibmJmIjoxNzE5MjE1OTM1LCJjc3JmIjoiZTI2MDRmMjEtMzk2MS00ZTdhLThmOGItNzg3NTA1NzYyNDg2IiwiZXhwIjoxNzE5MjE2ODM1fQ.VKmVjnNU7g8YOVmnSvkTA67Vm__3PiX297hEMTbsnlo",\n    "username": "string"\n  },\n  "message": "Login successful"\n}\n'
+2024-06-24 16:00:24,494 - API_Logger - INFO - Path: /api/user
+2024-06-24 16:00:24,495 - API_Logger - INFO - Method: GET
+2024-06-24 16:00:24,496 - API_Logger - INFO - Request Data: b''
+2024-06-24 16:00:24,497 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 16:00:24,499 - API_Logger - INFO - JWT Info: {'fresh': False, 'iat': 1719215935, 'jti': 'beea7dd1-132b-4053-ae08-7df625f233e6', 'type': 'access', 'sub': 3, 'nbf': 1719215935, 'csrf': 'e2604f21-3961-4e7a-8f8b-787505762486', 'exp': 1719216835}
+2024-06-24 16:00:24,506 - API_Logger - INFO - Response Status: 200 OK
+2024-06-24 16:00:24,507 - API_Logger - INFO - Response Data: b'{\n  "email": "test@test.test",\n  "id": 3,\n  "role": "admin",\n  "username": "string"\n}\n'
+2024-06-24 16:02:19,318 - API_Logger - INFO - Path: /api/users/3/role
+2024-06-24 16:02:19,318 - API_Logger - INFO - Method: PUT
+2024-06-24 16:02:19,319 - API_Logger - INFO - Request Data: b'{\r\n  "role": "user"\r\n}'
+2024-06-24 16:02:19,319 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 16:02:19,319 - API_Logger - INFO - No JWT found in request: Missing Authorization Header
+2024-06-24 16:02:19,320 - API_Logger - INFO - Response Status: 401 UNAUTHORIZED
+2024-06-24 16:02:19,320 - API_Logger - INFO - Response Data: b'{\n  "msg": "Missing Authorization Header"\n}\n'
+2024-06-24 16:02:31,676 - API_Logger - INFO - Path: /api/users/3/role
+2024-06-24 16:02:31,677 - API_Logger - INFO - Method: PUT
+2024-06-24 16:02:31,678 - API_Logger - INFO - Request Data: b'{\r\n  "role": "user"\r\n}'
+2024-06-24 16:02:31,679 - API_Logger - INFO - Request Args: ImmutableMultiDict([])
+2024-06-24 16:02:31,681 - API_Logger - INFO - JWT Info: {'fresh': False, 'iat': 1719215935, 'jti': 'beea7dd1-132b-4053-ae08-7df625f233e6', 'type': 'access', 'sub': 3, 'nbf': 1719215935, 'csrf': 'e2604f21-3961-4e7a-8f8b-787505762486', 'exp': 1719216835}
+2024-06-24 16:02:31,694 - API_Logger - INFO - Response Status: 200 OK
+2024-06-24 16:02:31,696 - API_Logger - INFO - Response Data: b'{\n  "message": "User\'s role updated to user successfully."\n}\n'
